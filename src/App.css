@@ -1,0 +1,274 @@
+.App-header {
+  background-color: #d7d4ff;
+  margin: 0 0 0 0;
+  color: black;
+}
+
+.App-header h2,
+p {
+  padding-left: 17.5%;
+  font-weight: 400;
+}
+
+.App-header h2 {
+  margin: 0;
+  padding-top: 5%;
+  color: #2b2b2b;
+  font-size: 36px;
+  font-family: Merriweather;
+  line-height: 47px;
+  word-wrap: break-word;
+}
+
+.App-header p {
+  color: #555555;
+  font-size: 19px;
+  font-family: Lato;
+  line-height: 32px;
+  word-wrap: break-word;
+}
+
+.App-header button {
+  border: none;
+  border-radius: 5%;
+  background-color: #6c63ff;
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+  margin-left: 17.5%;
+  margin-bottom: 2%;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.App-main {
+  margin-bottom: 3%;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.App-main .card1 {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 20%;
+  background-color: #ff6363;
+  margin-top: 10%;
+  margin-left: 13%;
+}
+
+.App-main .card2 {
+  /* background: white; */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 20%;
+  background-color: #63ecff;
+  margin-top: 10%;
+  margin-left: 7%;
+}
+
+.App-main .card3 {
+  /* background: white; */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 20%;
+  background-color: #f363ff;
+  margin-top: 10%;
+  margin-left: 7%;
+}
+
+.App-main .card4 {
+  /* background: white; */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 20%;
+  background-color: #63ff73;
+  margin-top: 10%;
+  margin-left: 13%;
+}
+
+.App-main .card5 {
+  /* background: white; */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 20%;
+  background-color: #ffdd63;
+  margin-top: 10%;
+  margin-left: 7%;
+}
+
+.App-main .card6 {
+  /* background: white; */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  width: 20%;
+  background-color: #6663ff;
+  margin-top: 10%;
+  margin-left: 7%;
+}
+
+.cardTitle {
+  margin-top: 70%;
+  padding-top: 5%;
+  padding-left: 5%;
+  color: #2b2b2b;
+  font-size: 24px;
+  font-family: Merriweather;
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+.cardP {
+  margin-bottom: 0;
+  padding-left: 1%;
+  padding-left: 7%;
+  padding-bottom: 10%;
+  color: #555555;
+  font-size: 18px;
+  font-family: Lato;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+.cardContainer {
+  width: 382px;
+  padding-left: 0%;
+  background-color: white;
+}
+
+.App-footer {
+  background-color: #d7d4ff;
+}
+
+.footerTitle {
+  margin-top: 0;
+  padding-top: 5%;
+  text-align: center;
+  color: #2b2b2b;
+  font-size: 32px;
+  font-family: Merriweather;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.App-footer input {
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  background: white;
+  border-radius: 6px;
+  margin-left: 37%;
+  padding-left: 1%;
+  width: 26%;
+  height: 63px;
+  border: none;
+}
+
+.App-footer button {
+  margin-top: 1%;
+  width: 27%;
+  height: 46px;
+  margin-left: 37%;
+  margin-bottom: 1%;
+  background-color: #6C63FF;
+  color: white;
+  font-weight: bold;
+  font-size: 19px;
+  border: none;
+}
+
+.mensagemFooter {
+  padding-bottom: 2%;
+}
+
+@media (max-width: 800px) {
+
+  .App-header h2,
+  p {
+    padding-left: 5%;
+  }
+
+  .App-header button {
+    margin-left: 5%;
+  }
+
+ .App-main .card1,
+  .App-main .card2,
+  .App-main .card3,
+  .App-main .card4,
+  .App-main .card5,
+  .App-main .card6 {
+    width: 90%;
+    margin: 5% auto;
+  }
+
+  .cardTitle {
+    padding: 5% 5% 0;
+    margin-top: 0;
+  }
+
+  .cardP {
+    padding: 0 5% 5%;
+    margin-bottom: 0;
+  }
+
+  .card1 {
+    background-color: #ff6363;
+  }
+
+  .card2 {
+    background-color: #63ecff;
+  }
+
+  .card3 {
+    background-color: #f363ff;
+  }
+
+  .card4 {
+    background-color: #63ff73;
+  }
+
+  .card5 {
+    background-color: #ffdd63;
+  }
+
+  .card6 {
+    background-color: #6663ff;
+  }
+
+  .cardContainer {
+    width: 100%;
+  }
+
+  .App-footer input {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .App-footer button {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .cardTitle {
+    padding: 5% 5% 0;
+    margin-top: 181px;
+  }
+
+  .cardP {
+    padding: 0 5% 5%;
+    margin-bottom: 0;
+  }
+
+  .cardContainer {
+    width: 100%;
+  }
+
+  .App-footer input {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .App-footer button {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+}
